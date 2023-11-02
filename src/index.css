@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply font-montserrat;
+}
+
+h1 {
+  @apply font-gaegu text-5xl;
+}
+
+::-webkit-scrollbar {
+  @apply bg-gray-500 w-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400;
+}
