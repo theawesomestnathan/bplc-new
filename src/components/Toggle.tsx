@@ -7,7 +7,7 @@ import {
 import { createSignal } from "solid-js";
 
 function Toggle() {
-  const [mode, setMode] = createSignal("light");
+  const [mode, setMode] = createSignal("dark");
 
   function toggleMode() {
     setMode(mode() === "light" ? "dark" : "light");
